@@ -8,15 +8,15 @@
 
 $frase = "Mi nombre es Xabi";
 
-$separar = explode(" ", strtolower($frase));
+$separar = explode(" ", strtolower($frase)); //explode divide el string en varias strings y strtolower lo pasa todo a minuúscula.
 
 foreach($separar as $palabra)
 {
-    trim($palabra);
+    trim($palabra);// trim elimina los espacios en blanco.
     $nuevo .= $palabra; 
 }
 
-if($nuevo == strrev($nuevo))
+if($nuevo == strrev($nuevo)) //strrev le da la vuelta al string.
 {
     echo "La frase/palabra '".$frase."' es palíndromo";
 }
