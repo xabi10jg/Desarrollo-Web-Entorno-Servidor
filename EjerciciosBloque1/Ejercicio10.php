@@ -19,6 +19,18 @@
 
 			echo "Los gastos de envio son 9 euros."
 		}
+		else{
+			if($total_compra>19 && $tipo_compra<40){
+
+				echo "Los gastos de envio son 9 euros."
+			}
+			else{
+				echo "No hay gastos de envio."
+			}
+
+
+				
+		}
 	}
 
 	?>
