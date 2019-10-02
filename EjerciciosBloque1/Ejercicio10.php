@@ -33,6 +33,14 @@
 		}
 	}
 
+		if($tipo_compra=="mascota"){
+			echo "El precio final ha sido "$total_compra*1.1;
+		}
+		else{
+			echo "El precio final ha sido "$total_compra*1.21;
+		}
+		}
+
 	?>
 
 </body>
